@@ -1,6 +1,5 @@
 import streamlit as st
 import os 
-import nest_asyncio
 import requests
 import json
 
@@ -42,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-nest_asyncio.apply()
+
 
 from dotenv import load_dotenv
 load_dotenv()
